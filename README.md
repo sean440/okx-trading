@@ -29,7 +29,7 @@
 
 1. 克隆代码仓库：
 ```bash
-git clone <仓库地址>
+git clone https://github.com/sean440/okx-trading.git
 cd okx_trading
 ```
 
@@ -45,7 +45,7 @@ pip install -r requirements.txt
 - python-dotenv>=0.19.0（环境变量管理）
 
 3. 配置 API 密钥：
-在项目根目录创建 `.env` 文件，填入以下信息：
+在config.py，更新以下信息：
 ```
 OKX_API_KEY=你的API密钥
 OKX_SECRET_KEY=你的密钥
